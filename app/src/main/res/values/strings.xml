@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Time To Close</string>
+    <string name="namePattern">[a-zA-Z]+[[0-9._@-]*[a-zA-Z]*]{5,}</string>
+    <string name="emailPattern">^[a-zA-Z]+[._a-zA-Z0-9]*@[a-z]+([\.][a-z]+)+$</string>
+    <string name="passwordPattern">^[A-Z][a-zA-Z0-9@#$%^;+=]{5,1}$</string>
+    <string name="preferences">MyPreferences</string>
+    <string name="label_text">By creating account you acknowledge and accept the <a href="https://www.google.com">Terms of Use</a> of Time To Close.</string>
+</resources>

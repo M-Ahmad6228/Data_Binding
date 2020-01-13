@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:padding="@dimen/_15sdp">
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="User#"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="@dimen/_12ssp"
+            android:autoSizeMaxTextSize="@dimen/_25ssp"
+            android:autoSizeStepGranularity="@dimen/_2ssp"
+            android:fontFamily="serif-monospace"/>
+
+        <TextView
+            android:id="@+id/txt1"
+            android:textColor="@color/colorWhite"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="@dimen/_12ssp"
+            android:autoSizeMaxTextSize="@dimen/_25ssp"
+            android:autoSizeStepGranularity="@dimen/_2ssp"
+            android:text="Fullname"
+            android:fontFamily="serif-monospace"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:textColor="@color/colorWhite"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:text="Email Address"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="@dimen/_12ssp"
+            android:autoSizeMaxTextSize="@dimen/_25ssp"
+            android:autoSizeStepGranularity="@dimen/_2ssp"
+            android:fontFamily="serif-monospace"/>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:textColor="@color/colorWhite"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="@dimen/_12ssp"
+            android:autoSizeMaxTextSize="@dimen/_25ssp"
+            android:autoSizeStepGranularity="@dimen/_2ssp"
+            android:fontFamily="serif-monospace"/>
+
+    </LinearLayout>
+
+</ScrollView>
